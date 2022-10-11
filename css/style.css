@@ -23,6 +23,6 @@
 }
 
 img{
-    width: 80px;
-    height: 80px;
+    width: 80%;
+    aspect-ratio: 1;
 }
