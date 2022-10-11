@@ -3,9 +3,7 @@
 // Numeri da 0 a 100
 for(let i = 0; i < 100; i++);
 
-// let f = document.body.backgroundImage = "url('../img/League_Infobox_Fizz.jpg')";
-// let b = document.body.backgroundImage = "url('../img/Senza titolo.png')";
-// let fB = document.body.backgroundImage = "url('../img/XXEverywhere.jpg')";
+
 
 
 
@@ -21,8 +19,10 @@ for (let i = 1; i <= 100; i++){
         let box = document.createElement('div');
         box.className += 'col-1' ;
         //allora
-        // box.append(fB)
-        box.append('Div fizzbuzz');   
+        let img = document.createElement('img')
+        img.setAttribute('src', '../img/Senza titolo.png')
+        
+        box.append(img);   
         
         riga.append(box);
        
@@ -33,8 +33,10 @@ for (let i = 1; i <= 100; i++){
         let box = document.createElement('div');
         box.className += 'col-1' ;
         //allora
-        // box.append(f)
-        box.append('Div fizz');
+        let img = document.createElement('img')
+        img.setAttribute('src', '../img/League_Infobox_Fizz.jpg')
+        
+        box.append(img);
         
         riga.append(box);
        
@@ -45,8 +47,11 @@ for (let i = 1; i <= 100; i++){
         let box = document.createElement('div');
         box.className += 'col-1' ;
         //allora
-        // box.append(b)
-        box.append('Div buzz');
+        
+        let img = document.createElement('img')
+        img.setAttribute('src', '../img/XXEverywhere.jpg')
+        
+        box.append(img);
         
         riga.append(box);
         
